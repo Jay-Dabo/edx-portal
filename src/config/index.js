@@ -4,4 +4,6 @@ export default {
   LMS_CLIENT_ID: process.env.LMS_CLIENT_ID,
   SECURE_COOKIES: process.env.NODE_ENV !== 'development',
   SEGMENT_KEY: process.env.SEGMENT_KEY,
+  ACCESS_TOKEN_COOKIE_NAME: process.env.ACCESS_TOKEN_COOKIE_NAME,
+  REFRESH_TOKEN_COOKIE_NAME: process.env.REFRESH_TOKEN_COOKIE_NAME,
 };

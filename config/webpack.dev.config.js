@@ -102,6 +102,8 @@ module.exports = Merge.smart(commonConfig, {
       LMS_BASE_URL: 'http://localhost:18000',
       DATA_API_BASE_URL: 'http://localhost:8000',
       LMS_CLIENT_ID: 'CMehRRNqfiBRVJKnPOkjBDjAvurtnHpELoehKAvZ',
+      ACCESS_TOKEN_COOKIE_NAME: 'edx-jwt-cookie-header-payload',
+      REFRESH_TOKEN_COOKIE_NAME: 'edx-jwt-cookie-refresh-token',
     }),
   ],
   // This configures webpack-dev-server which serves bundles from memory and provides live
